@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body{
+    width: 97vw;
+    height: 100vh;
+    background-color: orange;
+}
+
+a{
+    height: 20vh;
+    color: black;
+    text-decoration: none;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#glug{
+    max-width: 20vw;
+    height: 20vh;
+}
+
+h4{
+    text-align: center;
+}
+
+#cmrit{
+    max-width: 20vw;
+    height: 20vh;
+}
+
+#clubname{
+    text-align: center;
+    padding: 10px;
+}
+
+.main{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.blocks{
+    margin: 5px;
+    display: inline-block;
+    width: 50vw;
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+#deptr{
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+    margin: 1vw;
+}
+
+.mainbody{
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#row div{
+    width: 25vw;
+    margin: 8px;
+    text-align: center;
+    border: 2px solid black;
+}
