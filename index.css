@@ -18,17 +18,18 @@ body{
 
 #title{
     margin-right: 10vw;
+    font-size: 1.3vw;
 }
 
 #glug{
-    width:5w;
+    width:5vw;
     height: 5vw;
 }
 
 .nav{
     padding-top: 2vh;
     padding-bottom: 2vh;
-    font-size: 150%;
+    font-size: 1.3vw;
 }
 
 .navbar{
@@ -69,5 +70,5 @@ a:hover{
 }
 
 #bot{
-    
+    margin-bottom: 0vh;
 }
