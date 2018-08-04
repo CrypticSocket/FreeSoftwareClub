@@ -4,6 +4,83 @@
     border: 0px;
 }
 
+@media only screen and (max-width:1220px){
+    h2{
+        font-size: 1.3em;
+    }
+    
+}
+
+@media only screen and (max-width:1050px){
+    h1#clubname{
+        font-size: 1.8em;
+    }
+    img#glug{
+        width: 8em;
+        height: 8em;
+    }
+    
+    img#cmrit{
+        width: 8em;
+        height: 8em;
+    }
+}
+    
+@media only screen and (max-width:700px){
+    h1#clubname{
+        font-size: 1.3em;
+    }
+    
+    h2{
+        font-size: 1em;
+    }
+    img#glug{
+        width: 6em;
+        height: 6em;
+    }
+    
+    img#cmrit{
+        width: 6em;
+        height: 6em;
+    }
+    
+    div#row div{
+        width: 25vw;
+        margin: 0px;
+        margin-top: 2.5vh;
+        margin-bottom: 2.5vh;
+        text-align: center;
+        border: 2px solid black;
+    }
+}
+    
+@media only screen and (max-width:500px){
+    h1#clubname{
+        font-size: 1em;
+    }
+    h2{
+        font-size: 0.8em;
+    }
+    img#glug{
+        width: 5em;
+        height: 5em;
+    }
+    
+    img#cmrit{
+        width: 5em;
+        height: 5em;
+    }
+    
+    div#row div{
+        width: 25vw;
+        margin: 0px;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        text-align: center;
+        border: 2px solid black;
+    }
+}
+
 body{
     width: 97vw;
     height: 100vh;
@@ -27,8 +104,8 @@ a:hover{
 }
 
 #glug{
-    max-width: 20vw;
-    height: 20vh;
+    max-width: 12em;
+    height: 12em;
 }
 
 h4{
@@ -36,8 +113,8 @@ h4{
 }
 
 #cmrit{
-    max-width: 20vw;
-    height: 20vh;
+    max-width: 12em;
+    height: 12em;
 }
 
 #clubname{

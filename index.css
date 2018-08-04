@@ -51,7 +51,7 @@
         padding-bottom: 2vh;
         font-size: 0.8em;
     }
-    .slideshow{
+    div.slideshow{
         display: flex;
         margin: 3vw;
         margin-top:13vh;
@@ -101,6 +101,10 @@ body{
     border: 2px solid black;
     padding: 4px;
     border-radius: 12px;
+}
+
+.navbar li:hover{
+    font-size: 1.1em;
 }
 
 a{
